@@ -146,7 +146,7 @@ def age=(value)
 end
 ```
 
-Another nice feature of using setters/getters is future proofing. Maybe in the future you want to add validations whenever someone sets one of your instance variables? No problem! Just override the setter method. No need to find all the places that you modify that instance variable and change it.
+Another nice feature of using private setters/getters is future proofing. Maybe in the future you want to add validations whenever someone sets one of your instance variables? No problem! Just override the setter method. No need to find all the places that you modify that instance variable and change it.
 
 Let's make a method in the `Cat` class that receives age, through the only way it can: `self`. A cat can have a birthday, where it ages 1 year when the birthday happens.
 
@@ -185,3 +185,5 @@ Then when we call `bub.birthday!`, Lil Bub's age becomes 3. Happy birthday, Bub!
 ![bub birthday](http://readme-pics.s3.amazonaws.com/LilBub_bday.jpg)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-public-private-methods-readme' title='Private Methods'>Private Methods</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-public-private-methods-readme'>Private Methods</a> on Learn.co and start learning to code for free.</p>
